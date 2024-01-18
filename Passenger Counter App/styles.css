@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fed4ee; /* Set the background color of the container */
+    border: 1px solid #ccc; /* Add a border around the container */
+    padding: 20px; /* Add padding to the container */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+}
+
+.content {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#count-el {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#save-el {
+    font-size: 18px;
+}
